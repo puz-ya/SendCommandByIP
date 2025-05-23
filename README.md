@@ -4,8 +4,7 @@ Format: IP PORT "COMMAND"
 ## Examples
 ### --- --- --- UDP case
 
-
-Start measurement in Continous Mode:
+Start measurement in Continuous Mode:
 >SendCommandByIP.exe 192.168.250.120 9600 "MEASURE /C"
 
 Command [MEASURE /C] sent to
@@ -13,7 +12,7 @@ Command [MEASURE /C] sent to
 
 
 
-Stop measurement in Continous Mode:
+Stop measurement in Continuous Mode:
 >SendCommandByIP.exe 192.168.250.120 9600 "MEASURE /E"
 
 Command [MEASURE /E] sent to
@@ -22,8 +21,7 @@ Command [MEASURE /E] sent to
 
 ### --- --- --- TCP case
 
-
-Start measurement in Continous Mode:
+Start measurement in Continuous Mode:
 >SendCommandByIP.exe 192.168.250.120 9876 "MEASURE /C"
 
 Command [MEASURE /C] sent to
@@ -33,7 +31,7 @@ Response: OK
 
 
 
-Stop measurement in Continous Mode:
+Stop measurement in Continuous Mode:
 >SendCommandByIP.exe 192.168.250.120 9876 "MEASURE /E"
 
 Command [MEASURE /E] sent to
