@@ -1,5 +1,8 @@
 # SendCommandByIP.exe
-Format: IP PORT "COMMAND"
+CLI arguments format: IP PORT "COMMAND"
+
+Target framework: .Net Framework 4
+Output type: Console application
 
 ## Examples
 ### --- --- --- UDP case
